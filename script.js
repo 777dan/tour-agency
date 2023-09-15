@@ -32,6 +32,6 @@ function tourSelection() {
     if (price !== undefined) {
         message = confirm(`${message} It costs ${price}$. Do you want a hot tour?`);
         price *= 0.8;
-        (message === true) ? alert(`Discount -20%. This tour costs ${price}$`) : alert("Okay");
+        (message === true) ? alert(`Discount -20%. This tour costs ${price}$`) : alert(`Okay. This tour costs ${price}$`);
     }
 }
